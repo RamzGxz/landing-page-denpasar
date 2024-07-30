@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black w-full h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 relative md:w-full lg:w-[1140px] lg:mt-10">
+    <nav className=" bg-black w-full h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 relative md:w-full lg:w-[1140px] lg:mt-3">
       {/* Desktop View */}
       <div className="hidden lg:flex items-center text-white w-full justify-between">
         <ul className="flex items-center flex-grow justify-between">
