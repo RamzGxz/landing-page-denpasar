@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPages from './pages/LandingPages';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<LandingPages />} />
+    </Routes>
+    </BrowserRouter>
   );
 };
 
