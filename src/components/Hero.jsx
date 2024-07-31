@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="text-[30px] font-semibold lg:text-[70px]">
           I 
-          <span className="text-[#D92D20]"> Nyoman</span> Sutdijra
+          <span className="text-[#D92D20]"> Nyoman</span> Sutjidra
         </div>
       </div>
       <div className="flex w-full max-w-6xl justify-center items-center">
