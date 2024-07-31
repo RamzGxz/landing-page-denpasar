@@ -5,8 +5,8 @@ const RekapKegiatan = () => {
   const activities = [
     {
       id: 1,
-      title: 'Pesta Rakyat Kabupaten Buleleng - GAMA Bali',
-      image: 'public/RekapKegiatan/kegiatan2.png',
+      title: 'Menghadiri dalam acara BATA7 berlokasi di Krisna Oleh-oleh, Temukus, Buleleng',
+      image: 'public/RekapKegiatan/berita1.jpg',
     },
     {
       id: 2,
@@ -15,14 +15,19 @@ const RekapKegiatan = () => {
     },
     {
       id: 3,
-      title: 'Menghadiri Upacara Pitra Yadnya di Desa Pakraman Kerobokan, Kecamatan Sawan',
-      image: 'public/RekapKegiatan/kegiatan2.png',
+      title: 'Menghadiri Serangkaian HUT PDI Perjuangan ke 51, Ranting Desa Tejakula',
+      image: 'public/RekapKegiatan/berita3.jpg',
     },
     {
-        id: 4,
-        title: 'Menghadiri Upacara Pitra Yadnya di Desa Pakraman Kerobokan, Kecamatan Sawan',
-        image: 'public/RekapKegiatan/kegiatan2.png',
+      id: 4,
+      title: 'PDIP Bali Usulkan Peluang Pencalonan Pemilihan Bupati dan Wakil Bupati',
+      image: 'public/RekapKegiatan/berita2.jpg',
     },
+    {
+      id: 5,
+      title: 'Bertemu dengan Perbekel dan Bendesa Adat Se-kecamatan Seririt.',
+      image: 'public/RekapKegiatan/berita5.jpg',
+  },
     // Tambahkan lebih banyak item jika diperlukan
   ];
 
@@ -40,10 +45,9 @@ const RekapKegiatan = () => {
   const currentActivities = activities.slice(currentPage * itemsPerPage, (currentPage + 1) * itemsPerPage);
 
   return (
-    <div className="bg-gray-100 min-h-screen p-4">
+    <div className="bg-white min-h-screen p-4">
       <section>
         <div className="container mx-auto p-4">
-          <h1 className="text-[24px] lg:text-[48px] text-center font-bold text-black mt-10">Profil Pribadi</h1>
           <div className="bg-[#FF6500] grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-[10px] mt-[40px] p-6 text-white">
             <div className="flex flex-col justify-center">
               <h2 className="text-[24px] lg:text-[32px] font-bold mb-4">Karier :</h2>
@@ -73,7 +77,7 @@ const RekapKegiatan = () => {
           <div className="bg-white min-h-screen p-4 mt-6">
             <h2 className="text-2xl lg:text-3xl font-bold text-black mb-4">Rekap Kegiatan</h2>
             <div className="relative">
-              <div className="flex justify-center lg:justify-between flex-wrap -mx-2">
+              <div className="flex justify-center lg:justify-start flex-wrap -mx-2">
                 {currentActivities.map(activity => (
                   <div key={activity.id} className="w-full sm:w-1/2 lg:w-1/3 px-2 mb-4">
                     <div className="bg-gray-200 p-4 rounded-lg">
