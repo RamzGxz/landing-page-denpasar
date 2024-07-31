@@ -6,7 +6,7 @@ const Berita = () => {
     <div className="p-4 sm:p-6 md:p-8 lg:p-[70px] lg:mx-auto lg:max-w-screen-xl">
       <div className="flex md:justify-between items-center justify-center mb-5 md:mb-1 lg:mb-[9px]">
         <h1 className="font-bold text-4xl md:text-[40px]">BERITA</h1>
-        <button className="hidden md:block px-5 py-3 text-sm text-white md:text-xs lg:text-sm bg-black rounded-lg">
+        <button className="hidden md:block px-5 py-3 text-sm text-white bg-black hover:bg-[#D92D20] transition-colors duration-300 hover:shadow-lg ease-in-out rounded-lg">
           Baca Selengkapnya
         </button>
       </div>
@@ -120,7 +120,7 @@ const Berita = () => {
           1500s, when an unknown printer took a galley of type and scrambled it
           to make a type specimen book.
         </p>
-        <button className="px-5 py-3 text-white bg-red-600 rounded-lg">
+        <button className="px-5 py-3 text-white bg-[#D92D20] hover:bg-black transition-colors duration-300 hover:shadow-lg ease-in-out rounded-lg">
           <span className="flex items-center gap-2">
             <Envelope size={24} weight="regular" />
             Kontak Kami
