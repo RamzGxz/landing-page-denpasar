@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 fixed z-50 w-full left-0 right-0 max-w-[1140px] lg:mt-4">
+    <nav className="bg-black h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 fixed z-50 w-full left-0 right-0 max-w-[1140px] mt-2 lg:mt-4">
       <div className="hidden lg:flex items-center text-white w-full justify-between">
         <ul className="flex items-center flex-grow justify-between">
           <li className="ml-20 group">
@@ -205,7 +205,6 @@ const Navbar = () => {
             )}
           </li>
           <li className="py-2">
-            <a href="#karier" onClick={(e) => handleScroll(e, 'publikasi')} className="hover:bg-[#D92D20] hover:text-white px-3 py-2 rounded-[60px] transition duration-300">Karier</a>
             <a
               href="#karier"
               onClick={(e) => handleScroll(e, "karier")}
