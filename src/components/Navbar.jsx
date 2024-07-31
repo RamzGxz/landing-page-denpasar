@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black w-full h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 relative md:w-full lg:w-[1140px] lg:mt-10">
+    <nav className="bg-black h-[81px] rounded-[30px] mx-auto flex items-center justify-between px-4 fixed z-50 w-full left-0 right-0 max-w-[1140px] lg:mt-10">
       {/* Desktop View */}
       <div className="hidden lg:flex items-center text-white w-full justify-between">
         <ul className="flex items-center flex-grow justify-between">
@@ -37,15 +37,15 @@ const Navbar = () => {
           <li className="mx-1 group relative">
             <button onClick={toggleDropdown} className="flex items-center group-hover:bg-[#D92D20] group-hover:text-white px-3 py-2 rounded-[60px] transition duration-300">
               Rekam Jejak
-              <CaretDown 
-                size={16} 
-                className={`ml-1 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`} 
+              <CaretDown
+                size={16}
+                className={`ml-1 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`}
               />
             </button>
             {isDropdownOpen && (
               <ul className="absolute top-full left-0 mt-2 bg-black rounded shadow-lg">
-                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="#person1">I Nyoman Sutdijra</a></li>
-                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="#person2">Gede Supriatna</a></li>
+                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="/i_nyoman_sutjidra">I Nyoman Sutjidra</a></li>
+                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="/GedeSupriatna">Gede Supriatna</a></li>
               </ul>
             )}
           </li>
@@ -84,15 +84,15 @@ const Navbar = () => {
           <li className="py-2 relative">
             <button onClick={toggleDropdown} className="flex items-center hover:bg-[#D92D20] hover:text-white px-3 py-2 rounded-[60px] transition duration-300">
               Rekam Jejak
-              <CaretDown 
-                size={16} 
-                className={`ml-1 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`} 
+              <CaretDown
+                size={16}
+                className={`ml-1 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`}
               />
             </button>
             {isDropdownOpen && (
               <ul className="absolute top-full left-0 mt-2 bg-black rounded shadow-lg">
-                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="#person1">I Nyoman Sutdijra</a></li>
-                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="#person2">Gede Supriatna</a></li>
+                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="/i_nyoman_sutjidra">I Nyoman Sutjidra</a></li>
+                <li className="px-4 py-2 hover:bg-[#D92D20]"><a href="/GedeSupriatna">Gede Supriatna</a></li>
               </ul>
             )}
           </li>
