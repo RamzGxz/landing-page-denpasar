@@ -25,9 +25,10 @@ const Pojok = () => {
                 </div>
                 <div className="text-end">
                     <a href="/pojokdetail">
-                    <button  className="bg-black hover:bg-[#D92D20] text-white text-[14px] font-normal py-[10px] px-[70px] rounded-[15px] mt-10 mx-auto">
+                    <button  className="bg-black hover:bg-[#D92D20] transition-colors duration-300 hover:shadow-lg ease-in-out text-white text-sm font-normal py-3 px-4 rounded-lg mt-10 mx-auto">
                         Lihat Selengkapnya
-                    </button></a>
+                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -56,7 +57,7 @@ const Pojok = () => {
                 </div>
                 <div className="text-start">
                     <a href="/pojokdetail">
-                    <button  className="bg-black hover:bg-[#D92D20] text-white text-[14px] font-normal py-[10px] px-[70px] rounded-[15px] mt-10 mx-auto">
+                    <button  className="bg-black hover:bg-[#D92D20] transition-colors duration-300 hover:shadow-lg ease-in-out text-white text-sm font-normal py-3 px-4 rounded-lg mt-10 mx-auto">
                         Lihat Selengkapnya
                     </button></a>
                 </div>
@@ -85,9 +86,9 @@ const Pojok = () => {
                         <img src="public/assets/wildan/pk4.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
-                <div className="mt-5">
+                <div className="mt-0">
                     <a href="/pojokdetail">
-                    <button  className="bg-black hover:bg-[#D92D20] text-white text-[14px] font-normal py-[10px] px-[70px] rounded-[15px] mt-10 mx-auto">
+                    <button  className="bg-black hover:bg-[#D92D20] transition-colors duration-300 hover:shadow-lg ease-in-out text-white text-sm font-normal py-3 px-4 rounded-lg mt-10 mx-auto">
                         Lihat Selengkapnya
                     </button></a>
                 </div>
