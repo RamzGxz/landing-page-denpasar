@@ -2,6 +2,8 @@ import Biografi from "../components/Biografi";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import RekapKegiatan from "../components/rekapKegiatan";
+import Berita from "../components/Berita";
+
 
 const LandingPages = () => {
     return ( 
@@ -10,6 +12,7 @@ const LandingPages = () => {
         <Hero />
         <Biografi/>
         <RekapKegiatan />
+        <Berita/>
         </>
      );
 }
