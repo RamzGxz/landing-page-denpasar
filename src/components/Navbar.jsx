@@ -205,7 +205,6 @@ const Navbar = () => {
             )}
           </li>
           <li className="py-2">
-            <a href="#karier" onClick={(e) => handleScroll(e, 'publikasi')} className="hover:bg-[#D92D20] hover:text-white px-3 py-2 rounded-[60px] transition duration-300">Karier</a>
             <a
               href="#karier"
               onClick={(e) => handleScroll(e, "karier")}
