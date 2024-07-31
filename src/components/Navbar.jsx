@@ -59,10 +59,10 @@ const Navbar = () => {
             </button>
             {isDropdownOpen && (
               <ul className="absolute top-full left-0 mt-2 bg-black rounded shadow-lg">
-                <li className="px-4 py-2 hover:bg-[#D92D20]" onClick={() => navigateToPage('/i_nyoman_sutjidra')}>
+                <li className="px-4 py-2 hover:bg-[#D92D20] cursor-pointer" onClick={() => navigateToPage('/i_nyoman_sutjidra')}>
                   I Nyoman Sutjidra
                 </li>
-                <li className="px-4 py-2 hover:bg-[#D92D20]" onClick={() => navigateToPage('/gede_supriatna')}>
+                <li className="px-4 py-2 hover:bg-[#D92D20] cursor-pointer" onClick={() => navigateToPage('/GedeSupriatna')}>
                   Gede Supriatna
                 </li>
               </ul>
@@ -105,11 +105,11 @@ const Navbar = () => {
               />
             </button>
             {isDropdownOpen && (
-              <ul className="absolute top-full left-0 mt-2 bg-black rounded shadow-lg">
-                <li className="px-4 py-2 hover:bg-[#D92D20]" onClick={() => navigateToPage('/i_nyoman_sutjidra')}>
+              <ul className="absolute top-full left-0 mt-2 bg-black rounded shadow-lg ">
+                <li className="px-4 py-2 hover:bg-[#D92D20] cursor-pointer" onClick={() => navigateToPage('/i_nyoman_sutjidra')}>
                   I Nyoman Sutjidra
                 </li>
-                <li className="px-4 py-2 hover:bg-[#D92D20]" onClick={() => navigateToPage('/gede_supriatna')}>
+                <li className="px-4 py-2 hover:bg-[#D92D20] cursor-pointer" onClick={() => navigateToPage('/GedeSupriatna')}>
                   Gede Supriatna
                 </li>
               </ul>
