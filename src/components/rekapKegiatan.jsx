@@ -1,10 +1,9 @@
-// src/rekapKegiatan.jsx
 import React, { useState } from 'react';
 import { CaretLeft, CaretRight } from "phosphor-react";
 
 
 
-const rekapKegiatan = () => {
+const RekapKegiatan = () => {
   const activities = [
     {
       id: 1,
@@ -102,4 +101,4 @@ const rekapKegiatan = () => {
   );
 };
 
-export default rekapKegiatan;
+export default RekapKegiatan;
