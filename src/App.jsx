@@ -1,4 +1,6 @@
 import React from 'react';
+
+import RekapKegiatan from './components/rekapKegiatan.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPages from './pages/LandingPages';
 import DetailGede from './pages/DetailGede';
@@ -13,6 +15,7 @@ const App = () => {
       <Route path="/i_nyoman_sutjidra" element={<DetailNyoman />} />
      </Routes>
     </BrowserRouter>
+
   );
 };
 
