@@ -6,7 +6,6 @@ import ProfilNyoman from "../components/ProfilNyoman";
 import RekapKegiatan from "../components/rekapKegiatan";
 import Berita from "../components/Berita";
 
-
 const LandingPages = () => {
     return ( 
         <>
@@ -16,7 +15,7 @@ const LandingPages = () => {
         <Hero />
         <Biografi/>
         <RekapKegiatan />
-         <Berita/>
+        <Berita/>
         </>
      );
 }
