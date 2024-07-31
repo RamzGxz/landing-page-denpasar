@@ -13,7 +13,7 @@ const DetailPojok = () => {
     ];
 
     return (
-        <div className="pt-[70px] lg:pt-[100px]"> {/* Tambahkan padding-top sesuai dengan tinggi navbar */}
+        <div className="pt-[70px] lg:pt-[100px]">
         {/* Pojok Kandidat Desktop */}
         <section className="hidden md:hidden lg:block">
             <div className="container w-[1140px] mx-auto mb-10">
@@ -22,7 +22,7 @@ const DetailPojok = () => {
                 </h1>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-[16px] mt-10">
                     {candidates.map((candidate, index) => (
-                        <div key={index} className="w-[263px] h-auto bg-white shadow-lg rounded-lg overflow-hidden mb-4">
+                        <div key={index} className="w-[263px] h-auto bg-black shadow-lg rounded-lg overflow-hidden mb-4">
                             <div className="relative h-[323px]">
                                 <img src={candidate.src} alt={candidate.title} className="w-full h-full object-cover"/>
                                 <div className="absolute top-2 right-2 bg-white bg-opacity-75 text-[#FF0000] text-[12px] font-bold px-2 py-1 rounded">
@@ -46,7 +46,7 @@ const DetailPojok = () => {
                 </h1>
                 <div className="grid grid-cols-2 gap-[8px] mt-10">
                     {candidates.map((candidate, index) => (
-                        <div key={index} className="w-full h-auto bg-white shadow-lg rounded-lg overflow-hidden mb-4">
+                        <div key={index} className="w-full h-auto bg-black shadow-lg rounded-lg overflow-hidden mb-4">
                             <div className="relative h-[160px]">
                                 <img src={candidate.src} alt={candidate.title} className="w-full h-full object-cover"/>
                                 <div className="absolute top-2 right-2 bg-white bg-opacity-75 text-[#FF0000] text-[10px] font-bold px-1 py-0.5 rounded">
@@ -70,7 +70,7 @@ const DetailPojok = () => {
                 </h1>
                 <div className="grid grid-cols-2 gap-[16px] mt-10">
                     {candidates.map((candidate, index) => (
-                        <div key={index} className="w-full h-auto bg-white shadow-lg rounded-lg overflow-hidden mb-4">
+                        <div key={index} className="w-full h-auto bg-black shadow-lg rounded-lg overflow-hidden mb-4">
                             <div className="relative h-[200px]">
                                 <img src={candidate.src} alt={candidate.title} className="w-full h-full object-cover"/>
                                 <div className="absolute top-2 right-2 bg-white bg-opacity-75 text-[#FF0000] text-[14px] font-bold px-2 py-1 rounded">
