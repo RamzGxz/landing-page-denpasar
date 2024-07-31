@@ -1,8 +1,8 @@
 const Pojok = () => {
     return (
-        <>
+        <div id="publikasi" className="pt-20">
         {/* Pojok Kandidat Desktop */}
-        <section className="hidden md:hidden lg:block" id="publikasi">
+        <section className="hidden md:hidden lg:block">
             <div className="container w-[1140px] mx-auto">
                 <h1 className="text-[40px] font-bold text-[#FF0000] mt-10">POJOK <span className="text-black">KANDIDAT</span></h1>
                 <div className="flex">
@@ -34,7 +34,7 @@ const Pojok = () => {
         </section>
 
         {/* Pojok Kandidat Mobile */}
-        <section className="block md:hidden lg:hidden">
+        <div className="block md:hidden lg:hidden">
             <div className="container w-[360px] mx-auto px-4">
                 <h1 className="text-[24px] font-bold text-[#FF0000] mt-5">POJOK <span className="text-black">KANDIDAT</span></h1>
                 <div className="flex">
@@ -62,10 +62,10 @@ const Pojok = () => {
                     </button></a>
                 </div>
             </div>
-        </section>
+        </div>
 
         {/* Pojok Kandidat Tablet */}
-        <section className="hidden md:block lg:hidden">
+        <div className="hidden md:block lg:hidden">
             <div className="container w-[768px] mx-auto px-4">
                 <h1 className="text-[32px] font-bold text-[#FF0000] mt-8">POJOK <span className="text-black">KANDIDAT</span></h1>
                 <div className="flex">
@@ -93,8 +93,8 @@ const Pojok = () => {
                     </button></a>
                 </div>
             </div>
-        </section>
-        </>
+        </div>
+        </div>
     );
 }
 
