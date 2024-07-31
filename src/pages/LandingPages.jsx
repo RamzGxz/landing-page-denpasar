@@ -17,6 +17,7 @@ const LandingPages = () => {
         <ProfilNyoman />
         <RekapKegiatan />
         <Berita/>
+        
         </>
      );
 }
