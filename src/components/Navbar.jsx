@@ -69,7 +69,7 @@ const Navbar = () => {
           </li>
           <div className="flex-shrink-0 mx-20">
             <img
-              src="./public/assets/taufan/logo.svg"
+              src="/assets/taufan/logo.svg"
               alt="Logo"
               className="h-10 mx-auto md:mx-0"
             />
@@ -125,7 +125,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex lg:hidden items-center justify-between w-full">
-        <img src="/public/assets/taufan/logo.svg" alt="Logo" className="h-10" />
+        <img src="/assets/taufan/logo.svg" alt="Logo" className="h-10" />
         <button onClick={toggleMenu} className="text-white ml-4">
           <List size={24} />
         </button>
