@@ -49,7 +49,7 @@ const RekapKegiatan = () => {
   return (
     <div className="bg-white min-h-screen p-4">
       <section>
-        <div className="container mx-auto p-4">
+        <div className="container w-[1140px] mx-auto">
           <div className="bg-[#FF6500] grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-[10px] mt-[40px] p-6 text-white">
             <div className="flex flex-col justify-center">
               <h2 className="text-[24px] lg:text-[32px] font-bold mb-4">Karier :</h2>
