@@ -3,12 +3,12 @@ import { Quotes } from 'phosphor-react';
 
 const Hero = () => {
   return (
-    <div className="mx-auto w-full flex flex-col items-center justify-center mt-5">
+    <div className="mx-auto w-full flex flex-col items-center justify-center">
       <div className="text-center">
         <img 
           src="/assets/taufan/hello.svg" 
           alt="Decorative" 
-          className="w-[129px] h-[64px] mx-auto mt-4 mb-2"
+          className="w-[129px] h-[64px] mx-auto mt-24 lg:mt-40 mb-2"
         />
         <div className="text-[30px] font-semibold lg:text-[70px]">
           I'm
