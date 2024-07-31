@@ -1,7 +1,7 @@
 const Biografi = () => {
     return ( 
         <>
-            <div className="max-w-screen-xl mx-auto mt-14 md:mt-16 lg:mt-20" id="biografi">
+            <div className="max-w-screen-xl mx-auto mt-14 pt-24 md:mt-16 lg:pt-24" id="biografi">
                 <div className="flex  justify-center">
                     <h1 className="text-[35px] lg:text-[48px] font-bold">Biografi Singkat</h1>
                 </div>
@@ -13,7 +13,7 @@ const Biografi = () => {
                         <h1 className="flex justify-start lg:justify-end gap-3 text-[30px] md:text-[38px] lg:text-[40px] mt-10 lg:mt-0 font-bold order-1 lg:order-2"><span className="text-[#D92D20]">Gede</span>Supriatna,SH</h1>
                     </div>
                     <div className="relative bg-[#D92D20] w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] flex justify-center items-center rounded-full mx-8 md:mx-44 lg:ml-[70px] overflow-hidden order-1 lg:order-2">
-                        <img src="/public/Biografi/Gede Supriatna Bio.png" alt="Profile Picture" className="absolute object-contain lg:w-50 mt-36" />
+                        <img src="/Biografi/Gede Supriatna Bio.png" alt="Profile Picture" className="absolute object-contain lg:w-50 mt-36" />
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ const Biografi = () => {
                         <h1 className="flex justify-start gap-3 text-[30px] md:text-[38px] lg:text-[40px] font-bold mt-10 lg:mt-0 order-1 lg:order-2"><span>I</span><span className="text-[#D92D20]">Nyoman</span>Sutdijra</h1>
                     </div>
                     <div className="relative bg-[#D92D20] w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] flex justify-center items-center rounded-full mx-8 md:mx-44 lg:mx-0 overflow-hidden">
-                        <img src="/public/Biografi/I nyoman.png" alt="" className="absolute object-contain w-11/12 mt-16"/>
+                        <img src="/Biografi/I nyoman.png" alt="" className="absolute object-contain w-11/12 mt-16"/>
                     </div>
                 </div>
             </div>

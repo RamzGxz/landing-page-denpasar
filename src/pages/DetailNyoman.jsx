@@ -4,10 +4,10 @@ const DetailNyoman = () => {
     return (
         <>
             <section className="lg:mx-auto lg:max-w-screen-xl">
-                <div className="relative w-full h-[600px] lg:h-[635px] bg-cover rounded-bl-3xl rounded-br-3xl bg-center lg:mx-auto lg:max-w-screen-xl" style={{ backgroundImage: `url('/public/assets/haikal/background.png')` }}>
+                <div className="relative w-full h-[600px] lg:h-[635px] bg-cover rounded-bl-3xl rounded-br-3xl bg-center lg:mx-auto lg:max-w-screen-xl" style={{ backgroundImage: `url('/assets/haikal/background.png')` }}>
                     <Navbar className="fixed top-0 left-0 w-full z-50" />
                     <div className="flex items-center justify-center h-full">
-                        <img src="/public/assets/haikal/nyoman.png" className="mt-[255px] w-[70%] md:mt-[180px] md:w-[40%] lg:mt-[204px] lg:w-[25%]" alt="" />
+                        <img src="/assets/haikal/nyoman.png" className="mt-[255px] w-[70%] md:mt-[180px] md:w-[40%] lg:mt-[204px] lg:w-[25%]" alt="" />
                     </div>
                 </div>
                 <div className="px-3 md:px-11 lg:px-36 py-16 lg:py-32">

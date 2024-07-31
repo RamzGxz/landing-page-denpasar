@@ -2,14 +2,14 @@ import React from 'react';
 
 const DetailPojok = () => {
     const candidates = [
-        { src: "public/assets/wildan/pk1.png", title: "Menyapa warga buleleng di acara jalan sehat" },
-        { src: "public/assets/wildan/pk2.png", title: "Penyerahan Bantuan kepada panti asuhan" },
-        { src: "public/assets/wildan/pk3.png", title: "Hadiri dalam acara APSEN 2024, Yang bertema 'Kota para legenda, kota petarung'" },
-        { src: "public/assets/wildan/pk4.png", title: "Edukasi Kesehatan untuk masyarakat" },
-        { src: "public/assets/wildan/pk5.jpg", title: "Ngopi break Bareng Bli Nyoman saat penutupan Rakernas PDI Perjuangan di Jakarta" },
-        { src: "public/assets/wildan/pk6.jpg", title: "Mengadakan kegiatan bakti sosial di Desa Galungan dan juga memberikan pelayanan pemeriksaan mata serta pembagian kacamata gratis." },
-        { src: "public/assets/wildan/pk7.jpg", title: "Ikut dalam prosesi pelaksanan Upacara Pecaruan Tilem Sasih Kapitu di Pura Dalem Desa Adat Bontihing Kecamatan Kubutambahan." },
-        { src: "public/assets/wildan/pk8.jpg", title: "Acara pembukaan LOKAFEST (Lokapaksa Festival) yang dilaksanakan pada tanggal 21 Desember 2023" }
+        { src: "/assets/wildan/pk1.png", title: "Menyapa warga buleleng di acara jalan sehat" },
+        { src: "/assets/wildan/pk2.png", title: "Penyerahan Bantuan kepada panti asuhan" },
+        { src: "/assets/wildan/pk3.png", title: "Hadiri dalam acara APSEN 2024, Yang bertema 'Kota para legenda, kota petarung'" },
+        { src: "/assets/wildan/pk4.png", title: "Edukasi Kesehatan untuk masyarakat" },
+        { src: "/assets/wildan/pk5.jpg", title: "Ngopi break Bareng Bli Nyoman saat penutupan Rakernas PDI Perjuangan di Jakarta" },
+        { src: "/assets/wildan/pk6.jpg", title: "Mengadakan kegiatan bakti sosial di Desa Galungan dan juga memberikan pelayanan pemeriksaan mata serta pembagian kacamata gratis." },
+        { src: "/assets/wildan/pk7.jpg", title: "Ikut dalam prosesi pelaksanan Upacara Pecaruan Tilem Sasih Kapitu di Pura Dalem Desa Adat Bontihing Kecamatan Kubutambahan." },
+        { src: "/assets/wildan/pk8.jpg", title: "Acara pembukaan LOKAFEST (Lokapaksa Festival) yang dilaksanakan pada tanggal 21 Desember 2023" }
     ];
 
     return (

@@ -1,9 +1,9 @@
 const ProfilNyoman = () => {
     return (
-        <>
+        <div id="karier" className="pt-20">
 
         {/* Profil Nyoman Desktop */}
-        <section className="hidden md:hidden lg:block"id="karier">
+        <section className="hidden md:hidden lg:block">
             <div className="container w-[1140px] mx-auto">
                 <h1 className="text-[40px] text-center font-bold text-black mt-10">Profil Pribadi</h1>
                 <div className="bg-[#C40C0C] grid grid-cols-3 gap-4 rounded-[10px] mt-[40px] p-6 text-white">
@@ -14,7 +14,7 @@ const ProfilNyoman = () => {
                         </p>
                     </div>
                     <div className="flex justify-center items-center">
-                        <img src="public/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-[340px] h-[100%] object-cover rounded-[10px]"/>
+                        <img src="/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-[340px] h-[100%] object-cover rounded-[10px]"/>
                     </div>
                     <div className="flex flex-col justify-center">
                         <h2 className="text-[32px] font-bold mb-4">Karier :</h2>
@@ -43,7 +43,7 @@ const ProfilNyoman = () => {
                 <h1 className="text-[32px] text-center font-bold text-black mt-10">Profil Pribadi</h1>
                 <div className="bg-[#C40C0C] rounded-[10px] mt-[20px] p-4 text-white">
                     <div className="flex flex-col items-center mb-4">
-                        <img src="public/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-full h-auto object-cover rounded-[10px] mb-4"/>
+                        <img src="/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-full h-auto object-cover rounded-[10px] mb-4"/>
                         <h1 className="text-[24px] font-bold mb-2">I Nyoman Sutjidra</h1>
                         <p className="text-[14px] text-center">
                             Dr. I Nyoman Sutjidra, Sp.OG. (lahir 13 November 1960) adalah politisi PDI Perjuangan yang menjabat sebagai Wakil Bupati Buleleng periode 2012-2017 dan 2017-2022. Sutjidra juga menjabat sebagai Wakil Ketua Bidang Pemenangan Pemilu DPC PDI Perjuangan Kabupaten Buleleng periode 2019-2024.
@@ -76,7 +76,7 @@ const ProfilNyoman = () => {
                 <h1 className="text-[32px] text-center font-bold text-black mt-10">Profil Pribadi</h1>
                 <div className="bg-[#C40C0C] rounded-[10px] mt-[20px] p-4 text-white">
                     <div className="flex flex-col items-center mb-4">
-                        <img src="public/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-1/2 h-auto object-cover rounded-[10px] mb-4"/>
+                        <img src="/assets/wildan/PPnyoman.png" alt="I Nyoman Sutjidra" className="w-1/2 h-auto object-cover rounded-[10px] mb-4"/>
                         <div className="text-start">
                         <h1 className="text-[24px] font-bold mb-2">I Nyoman Sutjidra</h1>
                         <p className="text-[14px]">
@@ -104,7 +104,7 @@ const ProfilNyoman = () => {
                 </div>
             </div>
         </section>
-        </>
+        </div>
     );
 }
 
