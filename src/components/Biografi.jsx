@@ -1,7 +1,7 @@
 const Biografi = () => {
     return ( 
         <>
-            <div className="max-w-screen-xl mx-auto mt-14 md:mt-16 lg:mt-20" id="biografi">
+            <div className="max-w-screen-xl mx-auto mt-14 pt-24 md:mt-16 lg:pt-24" id="biografi">
                 <div className="flex  justify-center">
                     <h1 className="text-[35px] lg:text-[48px] font-bold">Biografi Singkat</h1>
                 </div>
