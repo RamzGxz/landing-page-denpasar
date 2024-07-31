@@ -11,10 +11,10 @@ const LandingPages = () => {
     return ( 
         <>
         <Navbar />
-        <Pojok />
-        <ProfilNyoman />
         <Hero />
         <Biografi/>
+        <Pojok />
+        <ProfilNyoman />
         <RekapKegiatan/>
         <Berita/>
         </>

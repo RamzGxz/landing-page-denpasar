@@ -1,3 +1,5 @@
+import React from 'react';
+
 const DetailPojok = () => {
     const candidates = [
         { src: "public/assets/wildan/pk1.png", title: "Menyapa warga buleleng di acara jalan sehat" },
@@ -11,7 +13,7 @@ const DetailPojok = () => {
     ];
 
     return (
-        <>
+        <div className="pt-[70px] lg:pt-[100px]"> {/* Tambahkan padding-top sesuai dengan tinggi navbar */}
         {/* Pojok Kandidat Desktop */}
         <section className="hidden md:hidden lg:block">
             <div className="container w-[1140px] mx-auto mb-10">
@@ -83,7 +85,7 @@ const DetailPojok = () => {
                 </div>
             </div>
         </section>
-        </>
+        </div>
     );
 }
 
