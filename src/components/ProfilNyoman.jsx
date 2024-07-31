@@ -3,7 +3,7 @@ const ProfilNyoman = () => {
         <>
 
         {/* Profil Nyoman Desktop */}
-        <section className="hidden md:hidden lg:block">
+        <section className="hidden md:hidden lg:block"id="karier">
             <div className="container w-[1140px] mx-auto">
                 <h1 className="text-[40px] text-center font-bold text-black mt-10">Profil Pribadi</h1>
                 <div className="bg-[#C40C0C] grid grid-cols-3 gap-4 rounded-[10px] mt-[40px] p-6 text-white">
