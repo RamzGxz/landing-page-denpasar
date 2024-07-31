@@ -1,6 +1,6 @@
-// src/rekapKegiatan.jsx
 import React, { useState } from 'react';
-import { CaretLeft, CaretRight } from 'phosphor-react';
+import { CaretLeft, CaretRight } from "phosphor-react";
+
 
 
 const RekapKegiatan = () => {
@@ -90,8 +90,8 @@ const RekapKegiatan = () => {
                 ))}
               </div>
               <div className="flex justify-center mt-4">
-                <button onClick={handlePrevClick} className="p-6 rounded-full bg-gray-800 mx-2"><CaretLeft size={32} color="white" /></button>
-                <button onClick={handleNextClick} className="p-6 rounded-full bg-gray-800 mx-2"><CaretRight size={32} color="white" /></button>
+                <button onClick={handlePrevClick} className="p-4 rounded-full bg-gray-800 mx-2"><CaretLeft size={24} color="white" /></button>
+                <button onClick={handleNextClick} className="p-4 rounded-full bg-gray-800 mx-2"><CaretRight size={24} color="white" /></button>
               </div>
             </div>
           </div>
