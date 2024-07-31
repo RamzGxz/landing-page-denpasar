@@ -3,7 +3,7 @@ import { Quotes } from 'phosphor-react';
 
 const Hero = () => {
   return (
-    <div className="mx-auto w-full flex flex-col items-center justify-center">
+    <div className="mx-auto w-full flex flex-col items-center justify-center" id="beranda">
       <div className="text-center">
         <img 
           src="/assets/taufan/hello.svg" 
@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="flex w-full max-w-6xl justify-center items-center">
         <div className="hidden lg:flex relative left-2 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
           <Quotes size={24} className="text-gray-500 mb-4" />
-          <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="text-gray-700">Dalam setiap tantangan terdapat peluang. Hadapi setiap rintangan dengan tekad dan keyakinan.</p>
         </div>
         <img 
           src="/assets/taufan/hero.png" 
@@ -30,7 +30,7 @@ const Hero = () => {
         />
         <div className="hidden lg:flex relative right-2 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
           <Quotes size={24} className="text-gray-500 mb-4" />
-          <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="text-gray-700">Kesuksesan adalah hasil dari kerja keras dan ketekunan. Jangan biarkan tantangan menghentikanmu.</p>
         </div>
       </div>
     </div>
