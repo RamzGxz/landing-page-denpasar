@@ -12,7 +12,7 @@ const RekapKegiatan = () => {
     },
     {
       id: 2,
-      title: 'Fraksi PDIP Serahkan Donasi Biaya Pemulangan PMI Meninggal Di Ceko',
+      title: 'Fraksi PDIP Bali Serahkan Donasi Biaya Pemulangan PMI Meninggal Di Ceko',
       image: 'public/RekapKegiatan/kegiatan2.png',
     },
     {
@@ -49,7 +49,7 @@ const RekapKegiatan = () => {
   return (
     <div className="bg-white min-h-screen p-4">
       <section>
-        <div className="container w-[1140px] mx-auto">
+        <div className="container max-w-[1140px] mx-auto">
           <div className="bg-[#FF6500] grid grid-cols-1 lg:grid-cols-3 gap-4 rounded-[10px] mt-[40px] p-6 text-white">
             <div className="flex flex-col justify-center">
               <h2 className="text-[24px] lg:text-[32px] font-bold mb-4">Karier :</h2>
@@ -65,7 +65,7 @@ const RekapKegiatan = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-4 lg:mt-0">
-              <img src="public/RekapKegiatan/profile_gede.png" alt="Gede Supriata" className="w-[200px] h-[200px] lg:w-[330px] lg:h-[100%] object-cover rounded-[10px]" />
+              <img src="public/RekapKegiatan/profile_gede.png" alt="Gede Supriata" className="w-full h-auto lg:w-[330px] lg:h-[100%] object-cover rounded-[10px]" />
             </div>
             <div className="flex flex-col justify-center">
               <h1 className="text-[24px] lg:text-[32px] font-bold mb-4">Gede Supriata, SH</h1>
