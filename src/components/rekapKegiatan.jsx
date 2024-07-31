@@ -1,6 +1,7 @@
 // src/rekapKegiatan.jsx
 import React, { useState } from 'react';
 import { CaretLeft, CaretRight } from '@phosphor-icons/react';
+import { CaretLeft, CaretRight } from "phosphor-icons-react";
 
 
 const RekapKegiatan = () => {
