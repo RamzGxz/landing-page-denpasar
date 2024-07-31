@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPages from './pages/LandingPages';
 import PojokDetail from './pages/PojokDetail';
