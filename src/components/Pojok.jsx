@@ -2,7 +2,7 @@ const Pojok = () => {
     return (
         <>
         {/* Pojok Kandidat Desktop */}
-        <section className="hidden md:hidden lg:block">
+        <section className="hidden md:hidden lg:block" id="publikasi">
             <div className="container w-[1140px] mx-auto">
                 <h1 className="text-[40px] font-bold text-[#FF0000] mt-10">POJOK <span className="text-black">KANDIDAT</span></h1>
                 <div className="flex">
