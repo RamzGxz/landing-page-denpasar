@@ -3,7 +3,7 @@ import React from "react";
 
 const Berita = () => {
   return (
-    <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 lg:mx-auto lg:max-w-screen-xl">
+    <div className="p-4 sm:p-6 md:p-8 lg:p-[70px] lg:mx-auto lg:max-w-screen-xl">
       <div className="flex md:justify-between items-center justify-center mb-5 md:mb-1 lg:mb-[9px]">
         <h1 className="font-bold text-4xl md:text-[40px]">BERITA</h1>
         <button className="hidden md:block px-5 py-3 text-sm text-white md:text-xs lg:text-sm bg-black rounded-lg">

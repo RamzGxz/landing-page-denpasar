@@ -15,8 +15,9 @@ const LandingPages = () => {
         <Biografi/>
         <Pojok />
         <ProfilNyoman />
-        <RekapKegiatan/>
+        <RekapKegiatan />
         <Berita/>
+        
         </>
      );
 }
