@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { CaretLeft, CaretRight } from "phosphor-react";
 
 
+
 const rekapKegiatan = () => {
   const activities = [
     {
