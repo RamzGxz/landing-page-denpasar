@@ -1,9 +1,10 @@
 import React from 'react';
+import RekapKegiatan from './components/rekapKegiatan.jsx';
 
 const App = () => {
   return (
     <div>
-      init app
+      <RekapKegiatan />
     </div>
   );
 };
