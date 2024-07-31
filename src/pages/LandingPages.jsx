@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import RekapKegiatan from "../components/rekapKegiatan";
 import Berita from "../components/Berita";
 
-
 const LandingPages = () => {
     return ( 
         <>
