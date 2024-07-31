@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 
 const DetailGede = () => {
   return (
-    <section>
+    <section className="lg:mx-auto lg:max-w-screen-xl">
       <Navbar />
-      <div className="md:h-[400px] lg:mx-auto lg:max-w-screen-xl w-screen h-80 lg:h-[647px] relative rounded-b-[100px] overflow-hidden flex">
+      <div className="md:h-[400px] h-80 lg:h-[647px] relative rounded-b-[100px] overflow-hidden flex">
         <img
           src="../../public/assets/zitta/background.png"
           alt="background"
@@ -19,7 +19,7 @@ const DetailGede = () => {
           className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-52 w-auto md:h-60 lg:h-[444px]"
         />
       </div>
-      <div className="px-3 md:px-11 lg:px-36 py-16 lg:py-32 md:w-4/5 lg:w-3/4">
+      <div className="px-3 md:px-11 lg:px-36 py-16 lg:py-32">
         <h1 className="text-black font-bold text-2xl">
           Rekam Jejak Gede Supriatna
         </h1>
