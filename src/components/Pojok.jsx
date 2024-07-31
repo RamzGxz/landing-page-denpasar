@@ -11,16 +11,16 @@ const Pojok = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-[16px] mt-10">
                     <div className="w-[263px] h-[323px]">
-                        <img src="public/assets/wildan/pk1.png" alt="" />
+                        <img src="/assets/wildan/pk1.png" alt="" />
                     </div>
                     <div className="w-[263px] h-[323px]">
-                        <img src="public/assets/wildan/pk2.png" alt="" />
+                        <img src="/assets/wildan/pk2.png" alt="" />
                     </div>
                     <div className="w-[263px] h-[323px]">
-                        <img src="public/assets/wildan/pk3.png" alt="" />
+                        <img src="/assets/wildan/pk3.png" alt="" />
                     </div>
                     <div className="w-[263px] h-[323px]">
-                        <img src="public/assets/wildan/pk4.png" alt="" />
+                        <img src="/assets/wildan/pk4.png" alt="" />
                     </div>
                 </div>
                 <div className="text-end">
@@ -43,16 +43,16 @@ const Pojok = () => {
                 </div>
                 <div className="flex overflow-x-auto gap-[8px] mt-5">
                     <div className="min-w-[170px] h-[200px]">
-                        <img src="public/assets/wildan/pk1.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk1.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[170px] h-[200px]">
-                        <img src="public/assets/wildan/pk2.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk2.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[170px] h-[200px]">
-                        <img src="public/assets/wildan/pk3.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk3.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[170px] h-[200px]">
-                        <img src="public/assets/wildan/pk4.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk4.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div className="text-start">
@@ -74,16 +74,16 @@ const Pojok = () => {
                 </div>
                 <div className="flex overflow-x-auto gap-[12px] mt-8">
                     <div className="min-w-[270px] h-[300px]">
-                        <img src="public/assets/wildan/pk1.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk1.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[270px] h-[300px]">
-                        <img src="public/assets/wildan/pk2.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk2.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[270px] h-[300px]">
-                        <img src="public/assets/wildan/pk3.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk3.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                     <div className="min-w-[270px] h-[300px]">
-                        <img src="public/assets/wildan/pk4.png" alt="" className="w-full h-full object-cover rounded-md" />
+                        <img src="/assets/wildan/pk4.png" alt="" className="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div className="mt-0">

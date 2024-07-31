@@ -15,7 +15,7 @@ const Berita = () => {
         <div className="flex-1">
           <div className="w-full md:h-[305px] lg:h-[471px] rounded-lg overflow-hidden mb-[6px] md:mb-[9px] lg:mb-[10px]">
             <img
-              src="../../public/assets/nafis/berita.png"
+              src="../../assets/nafis/berita.png"
               alt="Main News"
               className="w-full h-full object-cover"
             />
@@ -32,7 +32,7 @@ const Berita = () => {
             <div className="flex gap-4 md:gap-[23px] h-max items-center">
               <div className="w-full min-h-[99px] lg:max-w-[263px] md:h-[97px] lg:min-h-[139px] rounded-lg overflow-hidden">
                 <img
-                  src="../../public/assets/nafis/berita1.png"
+                  src="/assets/nafis/berita1.png"
                   alt="News 1"
                   className="w-full h-full object-cover"
                 />
@@ -53,7 +53,7 @@ const Berita = () => {
             <div className="flex gap-4 md:gap-[23px] h-max items-center">
               <div className="w-full min-h-[99px] lg:max-w-[263px] md:h-[97px] lg:min-h-[139px] rounded-lg overflow-hidden">
                 <img
-                  src="../../public/assets/nafis/berita2.png"
+                  src="/assets/nafis/berita2.png"
                   alt="News 1"
                   className="w-full h-full object-cover"
                 />
@@ -74,7 +74,7 @@ const Berita = () => {
             <div className="flex gap-4 md:gap-[23px] h-max items-center">
               <div className="w-full min-h-[99px] lg:max-w-[263px] md:h-[97px] lg:min-h-[139px] rounded-lg overflow-hidden">
                 <img
-                  src="../../public/assets/nafis/berita3.png"
+                  src="/assets/nafis/berita3.png"
                   alt="News 1"
                   className="w-full h-full object-cover"
                 />
@@ -95,7 +95,7 @@ const Berita = () => {
             <div className="flex gap-4 md:gap-[23px] h-max items-center">
               <div className="w-full min-h-[99px] lg:max-w-[263px] md:h-[97px] lg:min-h-[139px] rounded-lg overflow-hidden">
                 <img
-                  src="../../public/assets/nafis/berita4.png"
+                  src="/assets/nafis/berita4.png"
                   alt="News 1"
                   className="w-full h-full object-cover"
                 />
@@ -116,7 +116,7 @@ const Berita = () => {
       <div className="mt-28 p-6 bg-red-100 rounded-lg text-center max-w-screen-md mx-auto">
         <h2 className="text-2xl font-bold mb-2">Ada Kritik dan Saran?</h2>
         <p className="text-gray-600 mb-4">
-        Kami sangat menghargai masukan dari masyarakat dalam upaya kami untuk meningkatkan kualitas pelayanan dan pembangunan di Kabupaten Buleleng. Kritik dan saran Anda sangat berarti bagi kami untuk terus belajar dan berbenah demi kemajuan bersama.
+          Kami sangat menghargai masukan dari masyarakat dalam upaya kami untuk meningkatkan kualitas pelayanan dan pembangunan di Kabupaten Buleleng. Kritik dan saran Anda sangat berarti bagi kami untuk terus belajar dan berbenah demi kemajuan bersama.
         </p>
         <button className="px-5 py-3 text-white bg-[#D92D20] hover:bg-black transition-colors duration-300 hover:shadow-lg ease-in-out rounded-lg">
           <span className="flex items-center gap-2">

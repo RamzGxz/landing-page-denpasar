@@ -7,12 +7,12 @@ const DetailGede = () => {
       <Navbar />
       <div className="md:h-[400px] h-80 lg:h-[647px] relative rounded-b-[100px] overflow-hidden flex">
         <img
-          src="../../public/assets/zitta/background.png"
+          src="/assets/zitta/background.png"
           alt="background"
           className="w-full h-full object-cover absolute"
         />
         <img
-          src="../../public/assets/zitta/gedesupriatna.png"
+          src="/assets/zitta/gedesupriatna.png"
           alt="GedeSupriatna"
           height={400}
           width={400}

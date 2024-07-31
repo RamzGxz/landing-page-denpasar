@@ -8,27 +8,27 @@ const RekapKegiatan = () => {
     {
       id: 1,
       title: 'Menghadiri dalam acara BATA7 berlokasi di Krisna Oleh-oleh, Temukus, Buleleng',
-      image: 'public/RekapKegiatan/berita1.jpg',
+      image: '/RekapKegiatan/berita1.jpg',
     },
     {
       id: 2,
       title: 'Fraksi PDIP Bali Serahkan Donasi Biaya Pemulangan PMI Meninggal Di Ceko',
-      image: 'public/RekapKegiatan/kegiatan2.png',
+      image: '/RekapKegiatan/kegiatan2.png',
     },
     {
       id: 3,
       title: 'Menghadiri Serangkaian HUT PDI Perjuangan ke 51, Ranting Desa Tejakula',
-      image: 'public/RekapKegiatan/berita3.jpg',
+      image: '/RekapKegiatan/berita3.jpg',
     },
     {
       id: 4,
       title: 'PDIP Bali Usulkan Peluang Pencalonan Pemilihan Bupati dan Wakil Bupati',
-      image: 'public/RekapKegiatan/berita2.jpg',
+      image: '/RekapKegiatan/berita2.jpg',
     },
     {
       id: 5,
       title: 'Bertemu dengan Perbekel dan Bendesa Adat Se-kecamatan Seririt.',
-      image: 'public/RekapKegiatan/berita5.jpg',
+      image: '/RekapKegiatan/berita5.jpg',
   },
     // Tambahkan lebih banyak item jika diperlukan
   ];
@@ -65,7 +65,7 @@ const RekapKegiatan = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-4 lg:mt-0">
-              <img src="public/RekapKegiatan/profile_gede.png" alt="Gede Supriata" className="w-full h-auto lg:w-[330px] lg:h-[100%] object-cover rounded-[10px]" />
+              <img src="/RekapKegiatan/profile_gede.png" alt="Gede Supriata" className="w-full h-auto lg:w-[330px] lg:h-[100%] object-cover rounded-[10px]" />
             </div>
             <div className="flex flex-col justify-center">
               <h1 className="text-[24px] lg:text-[32px] font-bold mb-4">Gede Supriata, SH</h1>
