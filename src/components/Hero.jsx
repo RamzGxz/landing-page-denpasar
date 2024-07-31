@@ -3,7 +3,7 @@ import { Quotes } from 'phosphor-react';
 
 const Hero = () => {
   return (
-    <div className="mx-auto w-full flex flex-col items-center justify-center bg-gray-100">
+    <div className="mx-auto w-full flex flex-col items-center justify-center mt-5">
       <div className="text-center">
         <img 
           src="/assets/taufan/hello.svg" 
@@ -20,8 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex w-full max-w-6xl justify-center items-center">
-        {/* Left Card */}
-        <div className="hidden lg:flex absolute left-36 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
+        <div className="hidden lg:flex relative left-0 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
           <Quotes size={24} className="text-gray-500 mb-4" />
           <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -30,7 +29,7 @@ const Hero = () => {
           alt="Hero" 
           className="w-full mx-auto lg:w-[700px] lg:h-[400px]"
         />
-        <div className="hidden lg:flex absolute right-36 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
+        <div className="hidden lg:flex relative right-0 w-64 p-6 bg-white shadow-lg rounded-lg text-center flex-col items-center">
           <Quotes size={24} className="text-gray-500 mb-4" />
           <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
